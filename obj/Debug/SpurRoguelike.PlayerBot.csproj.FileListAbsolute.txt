@@ -1,0 +1,7 @@
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\bin\Debug\SpurRoguelike.PlayerBot.dll
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\bin\Debug\SpurRoguelike.PlayerBot.pdb
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\bin\Debug\SpurRoguelike.Core.dll
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\bin\Debug\SpurRoguelike.Core.pdb
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\obj\Debug\SpurRoguelike.PlayerBot.csprojResolveAssemblyReference.cache
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\obj\Debug\SpurRoguelike.PlayerBot.dll
+C:\Users\Stas\Desktop\SpurRoguelike-master\SpurRoguelike.PlayerBot\obj\Debug\SpurRoguelike.PlayerBot.pdb
