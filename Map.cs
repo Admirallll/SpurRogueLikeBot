@@ -26,7 +26,7 @@ namespace SpurRoguelike.PlayerBot
             PlaceObjects(Points, level.Monsters.Select(x => x.Location), MapPointType.Passable, PlayerBot.MonsterDangerous);
             PlaceObjects(Points, level.Items.Select(x => x.Location), MapPointType.Empty, PlayerBot.ItemDangerous);
             PlaceObjects(Points, level.HealthPacks.Select(x => x.Location), MapPointType.Empty, PlayerBot.HealthDangerous);
-            PlaceObjects(Points, level.Field.GetCellsOfType(CellType.Trap), MapPointType.NonPassable, PlayerBot.TrapDangerous);
+            PlaceObjects(Points, level.Field.GetCellsOfType(CellType.Trap), MapPointType.Empty, PlayerBot.TrapDangerous);
         }
 
         public MapPoint[,] CreateCopyFromStatic()

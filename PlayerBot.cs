@@ -9,11 +9,11 @@ namespace SpurRoguelike.PlayerBot
     public class PlayerBot : IPlayerController
     {
         public static ObjectDangerous MonsterDangerous = new ObjectDangerous { Value = 15, Range = 2 };
-        public static ObjectDangerous TrapDangerous = new ObjectDangerous { Value = 1000000000, Range = 1 };
-        public static ObjectDangerous ExitDangerous = new ObjectDangerous { Value = 100000000, Range = 1 };
+        public static ObjectDangerous TrapDangerous = new ObjectDangerous { Value = 10000000, Range = 1 };
+        public static ObjectDangerous ExitDangerous = new ObjectDangerous { Value = 1000000, Range = 1 };
         public static ObjectDangerous WallDangerous = new ObjectDangerous { Value = 1, Range = 3 };
         public static ObjectDangerous HealthDangerous = new ObjectDangerous { Value = 100000, Range = 1 };
-        public static ObjectDangerous ItemDangerous = new ObjectDangerous { Value = 1000000, Range = 1 };
+        public static ObjectDangerous ItemDangerous = new ObjectDangerous { Value = 100000000, Range = 1 };
 
         public Stack<Location> Path { get; set; }
         private Dictionary<Location?, Location?> track;
@@ -126,7 +126,7 @@ namespace SpurRoguelike.PlayerBot
                 {
                     if (Path == null || Path.Count == 0)
                         Path = GetPathFromTrack(track, boss.Location, player.Location);
-
+                    
                     return Turn.Step(Path.Pop() - player.Location);
                 }
             }
